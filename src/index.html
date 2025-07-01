@@ -5,27 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./output.css" />
-    <style>
-      .btn {
-        border: 0;
-        padding: 10px 15px;
-        border-radius: 5px;
-        cursor: pointer;
-        background-color: #3498db;
-        color: white;
-        &:hover {
-          background-color: #2980b9;
-          transition: 0.3s;
-        }
-      }
-    </style>
   </head>
-  <body style="margin: 30px">
-    <!--<button class="btn">Cliquez moi !</button> -->
-    <button
-      class="cursor-pointer rounded bg-blue-600 px-4 py-2 text-white hover:bg-blue-700"
-    >
-      Tailwindcss !
+
+  <body class="h-screen p-12">
+    <input
+      type="text"
+      placeholder="Rechercher..."
+      class="rounded border px-4 py-2 outline-4 outline-offset-4 outline-lime-500 focus:outline"
+    />
+    <button class="ml-2 cursor-pointer rounded border px-4 py-2 focus:outline">
+      Cliquez !
     </button>
   </body>
 </html>
