@@ -5,8 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./output.css" />
+    <style>
+      .btn {
+        border: 0;
+        padding: 10px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: #3498db;
+        color: white;
+        &:hover {
+          background-color: #2980b9;
+          transition: 0.3s;
+        }
+      }
+    </style>
   </head>
-  <body>
-    <h1 class="py-2 text-3xl font-bold underline">Hello tailwind !</h1>
+  <body style="margin: 30px">
+    <!--<button class="btn">Cliquez moi !</button> -->
+    <button
+      class="cursor-pointer rounded bg-blue-600 px-4 py-2 text-white hover:bg-blue-700"
+    >
+      Tailwindcss !
+    </button>
   </body>
 </html>
